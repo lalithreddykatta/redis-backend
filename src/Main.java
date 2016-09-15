@@ -17,7 +17,11 @@ public class Main {
 
             while (it.hasNext()) {
                 String s = it.next();
-                System.out.println(s + ": " + jedis.get(s));
+                String ans = jedis.get(s);
+                if(ans.equals("testing")) {
+                  ans = ans + " - CORRECT!!";
+                }
+                System.out.println(s + ": " + ans);
             }
             try {
                 Thread.sleep(1000);
