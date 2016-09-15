@@ -20,6 +20,8 @@ public class Main {
                 String ans = jedis.get(s);
                 if(ans.equals("testing")) {
                   ans = ans + " - CORRECT!!";
+                } else {
+                  ans = ans + " - WRONG!";
                 }
                 System.out.println(s + ": " + ans);
             }
