@@ -13,7 +13,7 @@ public class Main {
         Jedis jedis = new Jedis("127.0.0.1");
         while(true) {
 
-            System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+            System.out.println('/f');
 
             System.out.print('\u000C');
 
@@ -38,7 +38,7 @@ public class Main {
                 System.exit(0);
             }
 
-            System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+            System.out.println('/f');
         }
 
     }
